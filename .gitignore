@@ -1,0 +1,33 @@
+# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,opencv
+# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,opencv
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+### OpenCV ###
+#OpenCV for Mac and Linux
+#build and release folders
+*/CMakeFiles
+*/CMakeCache.txt
+*/Makefile
+*/cmake_install.cmake
+.DS_Store
+
+# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,opencv
+
+EXAMPLE-b0-T2
+articles
+Proposal_PRAT.*
+images
+.DS_Store
